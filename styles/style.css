@@ -1,0 +1,96 @@
+/* common styles */
+* {
+  font-family: "Work Sans", sans-serif;
+}
+.tittle {
+  color: #131313;
+  font-weight: 700;
+  font-size: 45px;
+}
+.primary-btn{
+    
+color: #FFFFFF;
+text-align: center;
+font-weight: 600;
+font-size: 20px;
+padding: 20px 25px;
+background: #FF900E;
+border: 0;
+border-radius: 8px;
+width: 180px;
+height: 64px;
+text-align: center;
+}
+/* header section */
+header {
+  background: rgba(255, 144, 14, 0.1);
+  width: 100%;
+  height: 1100px;
+  margin-bottom: 61px;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tittle {
+  margin-left: 240px;
+}
+.header-nav {
+  margin-right: 240px;
+}
+.nav-name {
+  margin-right: 30px;
+  text-decoration: none;
+  color: #424242;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/* Banner style */
+.banner{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  
+
+}
+.banner-details {
+    width: 862px;
+  height: 225px;
+  left: 350px;
+  
+
+}
+.banner-title{
+    color: #131313;
+    font-weight: 700;
+font-size: 64px;
+text-align: center;
+line-height: 75px;
+margin-bottom: 30px;
+}
+
+.banner-para{
+    color: #727272;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 53px;
+   
+}
+.primary-btn{
+    position: relative;
+    left: 350px;
+    margin-bottom: 50px;
+}
+/* img style */
+.banner-image{
+    width: 100%;
+height: 500px;
+border-radius: 8px;
+position: relative;
+left: 20px;
+}
