@@ -7,6 +7,12 @@
   font-weight: 700;
   font-size: 45px;
 }
+h4{
+    color: #131313;
+    font-weight: 600;
+font-size: 20px;
+}
+
 .primary-btn,.primary-batton{
     
 color: #FFFFFF;
@@ -107,6 +113,7 @@ left: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
 }
 .feature-img{
     width: 342px;
@@ -147,4 +154,65 @@ font-size: 16px;
 .primary-batton{
     position: relative;
     left: 0;
+}
+/* Features-you-will-love section */
+
+.Features-you-will-love{
+    display: flex;
+    position: absolute;
+width: 1440px;
+height: 1200px;
+left: 150px;
+}
+.info-container{
+    width: 110%;
+height: 982px;
+}
+.headline{
+    color: #131313;
+    font-weight: 700;
+font-size: 45px;
+line-height: 35px;
+}
+.details{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;  
+width: 586px;
+/* height: 171px; */
+padding: 20px;
+margin-bottom: 5px;
+}
+
+.info-para,.heading{
+    color: #727272;
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+}
+.architect-img{
+    width:100%;
+height: 1200px;
+position: relative;
+right: 54px;
+}
+.secondary-button{
+    font-weight: 700;
+font-size: 65px;
+line-height: 70px;
+text-align: center;
+color: #FFFFFF;
+padding: 42px;
+border: 0;
+background: #FF900E;
+border-radius: 8px;
+width: 342px;
+height: 200px;
+position: relative;
+top: -130px;
+}
+.btn{
+    font-size: 25px;
+    text-align: center;
+    
 }
