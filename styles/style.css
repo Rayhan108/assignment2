@@ -217,6 +217,7 @@ header {
 font-size: 45px;
 padding: 0;
 margin: 0;
+margin-bottom: 24px;
 
 color: #131313;
 
@@ -256,3 +257,45 @@ font-size: 20px;
 
 color: #727272;
 }
+/* sponser style */
+.our-sponser{
+    
+}
+.sponser-info{
+    width: 542px;
+    height: 129px;
+    padding-left: 500px;
+    padding-right: 500px;
+    margin-bottom: 50px;
+}
+.sponser-title{
+    font-weight: 700;
+font-size: 45px;
+padding: 0;
+margin: 0;
+margin-bottom: 24px;
+color: #131313;
+text-align: center;
+}
+.sponser-para{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    
+    text-align: center;
+}
+.sponser{
+display: flex;
+gap: 120px;
+position: relative;
+left: 100px;
+margin-bottom: 80px;
+}
+.sponser-box{
+   
+    width: 153.33px;
+    height: 50px;
+}
+
+
