@@ -152,11 +152,11 @@ header {
 
 .Features-you-will-love {
   display: flex;
-  /* position: absolute; */
   margin: 100px;
   width: 800px;
-  height: 1200px;
-  /* left: 150px; */
+  height: 1000px;
+  margin-bottom: 50px;
+ 
 }
 .info-container {
   width: 110%;
@@ -332,4 +332,20 @@ header {
   text-decoration: none;
   color: #562eff;
   font-size: 16px;
+}
+/* footer section */
+footer{
+    margin-left: 100px;
+    margin-right: 100px;
+    
+background: #FFF4E7;
+border-radius: 8px;
+}
+.foter-para{
+    font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: #424242;
+padding: 40px;
 }
